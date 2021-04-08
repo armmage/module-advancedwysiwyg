@@ -1,0 +1,22 @@
+{
+    "name": "armmage/module-advancedwysiwyg",
+    "description": "TyniMce4 i tag to em replacing issue fixing and  including to default layout options like \"Color Picker\" or \"Code\"",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Artashes Baghdasaryan",
+            "email": "support@armmage.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Armmage\\AdvancedWysiwyg\\": ""
+        }
+    }
+}
